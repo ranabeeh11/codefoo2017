@@ -1,0 +1,5 @@
+﻿  Question3Solution.cpp
+c:\users\rameal.nabeeh\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\question3solution.cpp(411): warning C4101: 'holdTemp': unreferenced local variable
+c:\users\rameal.nabeeh\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\question3solution.cpp(550): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  ConsoleApplication1.vcxproj -> C:\Users\Rameal.Nabeeh\documents\visual studio 2015\Projects\ConsoleApplication1\Debug\ConsoleApplication1.exe
+  ConsoleApplication1.vcxproj -> C:\Users\Rameal.Nabeeh\documents\visual studio 2015\Projects\ConsoleApplication1\Debug\ConsoleApplication1.pdb (Full PDB)

@@ -1,0 +1,150 @@
+/*--------IN ORDER AS THEY APPEAR IN THE HIERARCHY----------*/
+
+body{
+  background-color:black;
+  cursor: default;
+  font-family: 'Karla', sans-serif;
+}
+
+a{
+  text-align:center;
+}
+
+@media (min-width: 1550px) {
+    .container{
+      width:auto !important;
+        max-width: 2100px !important;
+    }
+}
+
+@media (min-width: 1200px)  {
+    .container{
+      width:auto !important;
+        max-width: 1300px !important;
+    }
+}
+
+@media (min-width: 750px) {
+    .container{
+      width:auto !important;
+        max-width: 1550px !important;
+    }
+}
+.container{
+  background-color:white;
+}
+
+.nav{
+  width:95%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:1em;
+  margin-bottom:1em;
+}
+
+.pillHold{
+  width: 49%;
+  border:1px solid #C31919;
+}
+
+.test{
+  border-radius:50%;
+}
+
+.pillStyle{
+  color:#C31919;
+  background-color: white !important;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.active a{
+  color:white;
+  background-color:#C31919 !important;
+  text-decoration:none !important;
+}
+
+/*Edit this section to right look */
+.pillStyle:hover{
+  color: #C31919;
+  border-bottom: 1px #C31919 !important;
+  border-bottom-color:#C31919 !important;
+}
+
+.row-style{
+    border-bottom: 2px solid #BAB6B6;
+    width: 100%;
+    display: table;
+    padding: 7px;
+}
+
+.row-style:hover{
+  background-color:  #e8e8e8;
+  border-left: 5px solid #C31919;
+}
+
+.col-sm-2{
+  text-align:center;
+}
+
+.imgHold{
+  display: block;
+  width:100%;
+  text-align:center;
+  padding: 0;
+  border-bottom: 2px solid #BAB6B6;
+  background-color:black;
+}
+
+/*.sidebar{
+  background-color:black;
+}*/
+
+b{
+  display:block;
+}
+
+.iD{
+  color:#737373;
+}
+
+.sub{
+  color:#BAB6B6;
+}
+
+.repeat{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.repeat::before {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border: 5px solid #ffea00;
+}
+
+.goTo{
+    z-index: 1000;
+    height: 1.3em;
+    width: 5em;
+    position: absolute;
+    top: 30px;
+    left: 980px;
+    color: white;
+    font-size: 6em;
+    font-weight: bold;
+    background-color: #C31919;
+    cursor: pointer;
+}
+
+.seeMore{
+  color:#BAB6B6;
+  font-weight:bold;
+  padding: 7px;
+  width:100%;
+}

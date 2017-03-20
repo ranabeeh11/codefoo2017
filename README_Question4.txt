@@ -1,0 +1,3 @@
+Hello one last time :)
+
+I created this web application using React Javascript.  I did this for fun mainly but also because ReactJS uses a virtual dom which would make it quicker since it doesn't do a lot of rerendering if it's unnecessary. To do this I had to use webpack to compile the react code into javascript that the browser is used to. For that reason I am going to include the components used to make the webapp as well as it's normal js equivalent. To do localhost api calls I had to allow it with google chrome using open -a Google\ Chrome --args --disable-web-security. That should be everything have a good day :)
